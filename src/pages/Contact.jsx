@@ -120,7 +120,7 @@ export const Contact = () => {
             {/* Store Image Preview */}
             <div className="mb-12 rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="/magaza.jpg" 
+                src="/magaza.png" 
                 alt="Egefleks Mağaza Görseli" 
                 className="w-full h-auto object-cover"
               />

@@ -83,7 +83,7 @@ export const About = () => {
         <div className="container mx-auto px-4">
           <div className="rounded-3xl overflow-hidden shadow-2xl relative group">
             <img 
-              src="/magaza.jpg" 
+              src="/magaza.png" 
               alt="Egefleks Mağaza" 
               className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
             />
