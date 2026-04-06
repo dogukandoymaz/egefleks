@@ -46,19 +46,18 @@ export const Contact = () => {
 
   return (
     <div className="min-h-screen pt-32 pb-20">
-      {/* Header */}
-      <section className="relative py-24 bg-slate-900 text-white overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0">
-          <img 
-            src="/magaza.png" 
-            alt="Egefleks Arka Plan" 
-            className="w-full h-full object-cover opacity-30"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/80 to-blue-900/40"></div>
-        </div>
+      {/* Store Banner Strip */}
+      <div className="w-full h-auto overflow-hidden shadow-lg border-b border-gray-200">
+        <img 
+          src="/magaza.png" 
+          alt="Egefleks Mağaza" 
+          className="w-full max-h-[300px] object-cover"
+        />
+      </div>
 
-        <div className="container mx-auto px-4 text-center relative z-10">
+      {/* Header */}
+      <section className="py-12 bg-gradient-to-r from-slate-700 to-blue-900 text-white">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl lg:text-5xl font-bold mb-4">
             İletişim
           </h1>

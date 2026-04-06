@@ -30,26 +30,23 @@ export const About = () => {
 
   return (
     <div className="min-h-screen pt-32 pb-20">
+      {/* Store Banner Strip */}
+      <div className="w-full h-auto overflow-hidden shadow-lg border-b border-gray-200">
+        <img 
+          src="/magaza.png" 
+          alt="Egefleks Mağaza" 
+          className="w-full max-h-[300px] object-cover"
+        />
+      </div>
+
       {/* Hero Section */}
-      <section className="relative py-32 bg-slate-900 text-white overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0">
-          <img 
-            src="/magaza.png" 
-            alt="Egefleks Arka Plan" 
-            className="w-full h-full object-cover opacity-30"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/80 to-blue-900/40"></div>
-        </div>
-        
-        {/* Decorative Grid Overlay */}
+      <section className="relative py-20 bg-gradient-to-r from-slate-700 to-blue-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
             backgroundSize: '40px 40px'
           }}></div>
         </div>
-
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
