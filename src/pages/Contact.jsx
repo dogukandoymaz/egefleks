@@ -47,8 +47,18 @@ export const Contact = () => {
   return (
     <div className="min-h-screen pt-32 pb-20">
       {/* Header */}
-      <section className="py-12 bg-gradient-to-r from-slate-700 to-blue-900 text-white">
-        <div className="container mx-auto px-4 text-center">
+      <section className="relative py-24 bg-slate-900 text-white overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <img 
+            src="/magaza.png" 
+            alt="Egefleks Arka Plan" 
+            className="w-full h-full object-cover opacity-30"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/80 to-blue-900/40"></div>
+        </div>
+
+        <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-4xl lg:text-5xl font-bold mb-4">
             İletişim
           </h1>
@@ -117,15 +127,6 @@ export const Contact = () => {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            {/* Store Image Preview */}
-            <div className="mb-12 rounded-3xl overflow-hidden shadow-2xl">
-              <img 
-                src="/magaza.png" 
-                alt="Egefleks Mağaza Görseli" 
-                className="w-full h-auto object-cover"
-              />
-            </div>
-
             {/* Map & Address */}
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-slate-800 mb-2">

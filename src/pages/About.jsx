@@ -31,13 +31,25 @@ export const About = () => {
   return (
     <div className="min-h-screen pt-32 pb-20">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-slate-700 to-blue-900 text-white overflow-hidden">
+      <section className="relative py-32 bg-slate-900 text-white overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <img 
+            src="/magaza.png" 
+            alt="Egefleks Arka Plan" 
+            className="w-full h-full object-cover opacity-30"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/80 to-blue-900/40"></div>
+        </div>
+        
+        {/* Decorative Grid Overlay */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
             backgroundSize: '40px 40px'
           }}></div>
         </div>
+
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -73,22 +85,6 @@ export const About = () => {
               <p>
                 Geleceğe yönelik vizyonumuz doğrultusunda, sektörde yenilikçi yaklaşımımızı sürdürerek; yaşam alanlarına değer katan, güvenilir ve güçlü bir marka olmaya devam ediyoruz.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Store Image - Full Width */}
-      <section className="py-12 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="rounded-3xl overflow-hidden shadow-2xl relative group">
-            <img 
-              src="/magaza.png" 
-              alt="Egefleks Mağaza" 
-              className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
-              <p className="text-white text-xl font-semibold">Mağazamızdan Görüntüler</p>
             </div>
           </div>
         </div>
