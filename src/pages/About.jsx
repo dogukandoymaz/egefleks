@@ -78,6 +78,22 @@ export const About = () => {
         </div>
       </section>
 
+      {/* Store Image - Full Width */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="rounded-3xl overflow-hidden shadow-2xl relative group">
+            <img 
+              src="/magaza.jpg" 
+              alt="Egefleks Mağaza" 
+              className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
+              <p className="text-white text-xl font-semibold">Mağazamızdan Görüntüler</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Values */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">

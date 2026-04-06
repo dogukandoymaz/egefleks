@@ -117,6 +117,15 @@ export const Contact = () => {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            {/* Store Image Preview */}
+            <div className="mb-12 rounded-3xl overflow-hidden shadow-2xl">
+              <img 
+                src="/magaza.jpg" 
+                alt="Egefleks Mağaza Görseli" 
+                className="w-full h-auto object-cover"
+              />
+            </div>
+
             {/* Map & Address */}
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-slate-800 mb-2">
