@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock, MessageCircle, Globe, Camera } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, MessageCircle, Globe, Instagram } from 'lucide-react';
 import { companyInfo } from '../data/mockData';
 
 export const Footer = () => {
@@ -18,23 +18,25 @@ export const Footer = () => {
             <p className="text-sm leading-relaxed">
               {companyInfo.tagline}
             </p>
-            <div className="flex items-center gap-3 mt-4">
+            <div className="flex flex-col gap-3 mt-6">
               <a 
                 href={companyInfo.social.instagram} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-9 h-9 bg-slate-700 rounded-lg flex items-center justify-center hover:bg-amber-600 transition-colors"
+                className="group flex items-center gap-3 w-fit px-4 py-2 bg-gradient-to-tr from-[#f09433] via-[#e6683c] to-[#bc1888] text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
-                <Camera className="w-4 h-4" />
+                <Instagram className="w-5 h-5 group-hover:rotate-6 transition-transform" />
+                <span className="text-sm font-semibold">Instagram</span>
               </a>
 
               <a 
                 href={`https://wa.me/${companyInfo.whatsapp}`} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-9 h-9 bg-slate-700 rounded-lg flex items-center justify-center hover:bg-amber-600 transition-colors"
+                className="group flex items-center gap-3 w-fit px-4 py-2 bg-[#25D366] text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
-                <MessageCircle className="w-4 h-4" />
+                <MessageCircle className="w-5 h-5 group-hover:rotate-6 transition-transform" />
+                <span className="text-sm font-semibold">WhatsApp</span>
               </a>
             </div>
           </div>
