@@ -164,6 +164,111 @@ export const Contact = () => {
                 title="Egefleks Konum"
               ></iframe>
             </div>
+
+            {/* Contact Form */}
+            <div className="mt-16 pt-16 border-t border-gray-100">
+              <div className="max-w-2xl mx-auto">
+                <div className="text-center mb-10">
+                  <h2 className="text-3xl font-bold text-slate-800 mb-2">
+                    Mesaj Gönderin
+                  </h2>
+                  <p className="text-gray-600">
+                    Sizin için en iyi çözümleri sunalım.
+                  </p>
+                </div>
+
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1">
+                        Ad Soyad
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
+                        className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all"
+                        placeholder="Adınız ve soyadınız"
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1">
+                        E-posta
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
+                        className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all"
+                        placeholder="E-posta adresiniz"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-1">
+                        Telefon
+                      </label>
+                      <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all"
+                        placeholder="Telefon numaranız"
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="subject" className="block text-sm font-medium text-slate-700 mb-1">
+                        Konu
+                      </label>
+                      <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        value={formData.subject}
+                        onChange={handleChange}
+                        required
+                        className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all"
+                        placeholder="Mesaj konusu"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1">
+                      Mesajınız
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      value={formData.message}
+                      onChange={handleChange}
+                      required
+                      rows="4"
+                      className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all resize-none"
+                      placeholder="Size nasıl yardımcı olabiliriz?"
+                    ></textarea>
+                  </div>
+
+                  <button
+                    type="submit"
+                    className="w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-bold rounded-xl shadow-lg hover:shadow-xl hover:from-amber-600 hover:to-amber-700 transition-all flex items-center justify-center gap-2"
+                  >
+                    <Send className="w-5 h-5" />
+                    Mesajı Gönder
+                  </button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </section>
