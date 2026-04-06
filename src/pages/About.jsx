@@ -30,15 +30,6 @@ export const About = () => {
 
   return (
     <div className="min-h-screen pt-32 pb-20">
-      {/* Store Banner Strip */}
-      <div className="w-full h-auto overflow-hidden shadow-lg border-b border-gray-200">
-        <img 
-          src="/magaza.png" 
-          alt="Egefleks Mağaza" 
-          className="w-full max-h-[300px] object-cover"
-        />
-      </div>
-
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-r from-slate-700 to-blue-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -55,6 +46,19 @@ export const About = () => {
             <p className="text-xl text-gray-200 leading-relaxed">
               {companyInfo.tagline}
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Store Image - Full Version */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="rounded-3xl overflow-hidden shadow-2xl">
+            <img 
+              src="/magaza.png" 
+              alt="Egefleks Mağaza" 
+              className="w-full h-auto object-cover"
+            />
           </div>
         </div>
       </section>

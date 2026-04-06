@@ -46,15 +46,6 @@ export const Contact = () => {
 
   return (
     <div className="min-h-screen pt-32 pb-20">
-      {/* Store Banner Strip */}
-      <div className="w-full h-auto overflow-hidden shadow-lg border-b border-gray-200">
-        <img 
-          src="/magaza.png" 
-          alt="Egefleks Mağaza" 
-          className="w-full max-h-[300px] object-cover"
-        />
-      </div>
-
       {/* Header */}
       <section className="py-12 bg-gradient-to-r from-slate-700 to-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">
@@ -64,6 +55,19 @@ export const Contact = () => {
           <p className="text-lg text-gray-200 max-w-2xl mx-auto">
             Sorularınız için bize ulaşın. Uzman ekibimiz size yardımcı olmaktan mutluluk duyar.
           </p>
+        </div>
+      </section>
+
+      {/* Store Image - Full Version */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-2xl">
+            <img 
+              src="/magaza.png" 
+              alt="Egefleks Mağaza" 
+              className="w-full h-auto object-cover"
+            />
+          </div>
         </div>
       </section>
 
