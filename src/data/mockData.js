@@ -5,7 +5,7 @@ export const companyInfo = {
   tagline: "Mekanlarınıza Değer Katan Zemin ve Duvar Çözümleri",
   phone: "+90 541 251 84 64",
   whatsapp: "+905412518464",
-  email: "info@egeflekszemin.store",
+  email: "info@egefleks.com",
   address: "Dedebaşı, Anadolu Cd. 463b, 35170 Karşıyaka/İzmir",
   mapCoordinates: {
     lat: 38.4632,
