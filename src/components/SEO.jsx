@@ -5,7 +5,7 @@ import { companyInfo } from '../data/mockData';
 export const SEO = ({ title, description, keywords, canonical }) => {
   const siteTitle = title ? `${title} | Egefleks` : 'Egefleks | Zemin ve Duvar Çözümleri - İzmir';
   const metaDescription = description || '20 yılı aşkın tecrübemizle parke, duvar kağıdı, halıfleks ve endüstriyel PVC ürünlerinde İzmir\'in güvenilir adresi. Kaliteli zemin ve duvar kaplama çözümleri.';
-  const url = 'https://egefleks.com'; // Change to actual domain when live
+  const url = 'https://egeflekszemin.com.tr';
   
   return (
     <Helmet>

@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://egefleks.com/sitemap.xml
+Sitemap: https://egeflekszemin.com.tr/sitemap.xml
