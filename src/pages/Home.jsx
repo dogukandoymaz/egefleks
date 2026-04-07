@@ -2,17 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, Star, ArrowRight } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
+import { SEO } from '../components/SEO';
 import { productCategories, services, projects, testimonials } from '../data/mockData';
 
 export const Home = () => {
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="İzmir Parke, Duvar Kağıdı ve Zemin Kaplama Çözümleri"
+        description="Karşıyaka ve İzmir genelinde laminat parke, duvar kağıdı, halıfleks ve suni çim uygulamaları. 20 yıllık tecrübe ile kaliteli zemin kaplama hizmeti."
+        keywords="izmir parke, karşıyaka parke, izmir duvar kağıdı, karşıyaka duvar kağıdı, karşıyaka çim halı, izmir çim halı, parke anadolu caddesi, duvar kağıdı anadolu caddesi, çiğli parke, mavişehir parke, bostanlı parke"
+      />
       {/* Hero Section */}
       <section className="relative h-[600px] lg:h-[700px] flex items-center">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1581784878214-8d5596b98a01?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBpbnRlcmlvcnxlbnwwfHx8fDE3NzQ5NDcyOTN8MA&ixlib=rb-4.1.0&q=85"
-            alt="Egefleks Hero"
+            alt="Egefleks İzmir Parke ve Duvar Kağıdı Mağazası"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-blue-900/60"></div>
@@ -73,7 +79,7 @@ export const Home = () => {
                   <div className="relative h-64 overflow-hidden">
                     <img
                       src={category.images[0]}
-                      alt={category.name}
+                      alt={`${category.name} Modelleri - Egefleks İzmir`}
                       loading="lazy"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     />

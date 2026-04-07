@@ -2,6 +2,7 @@ import React from 'react';
 import { Award, Target, Users, Heart, CheckCircle2 } from 'lucide-react';
 import { companyInfo, services } from '../data/mockData';
 import * as LucideIcons from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 export const About = () => {
   const values = [

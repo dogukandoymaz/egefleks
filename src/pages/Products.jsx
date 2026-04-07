@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ChevronRight, Check } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
+import { SEO } from '../components/SEO';
 import { productCategories } from '../data/mockData';
 
 export const Products = () => {
@@ -17,10 +18,23 @@ export const Products = () => {
     }
   }, [slug]);
 
+  const seoData = selectedCategory ? {
+    title: `${selectedCategory.name} Modelleri ve Uygulamaları`,
+    description: `${selectedCategory.description} İzmir Karşıyaka ve çevre illerde profesyonel uygulama ve satış hizmeti.`,
+    keywords: `${selectedCategory.name.toLowerCase()} izmir, ${selectedCategory.name.toLowerCase()} karşıyaka, ${selectedCategory.name.toLowerCase()} fiyatları, ${selectedCategory.name.toLowerCase()} anadolu caddesi`,
+    canonical: `/urunler/${selectedCategory.slug}`
+  } : {
+    title: "Ürün Gruplarımız | Zemin ve Duvar Kaplama",
+    description: "Laminat parke, duvar kağıdı, halıfleks, suni çim ve endüstriyel PVC zemin kaplama çeşitlerimizi keşfedin. İzmir'in güvenilir dekorasyon merkezi.",
+    keywords: "izmir parke, karşıyaka duvar kağıdı, bostanlı suni çim, mavişehir halıfleks, çiğli pvc yer döşemesi, izmir kapı modelleri",
+    canonical: "/urunler"
+  };
+
   // Product List View
   if (!selectedCategory) {
     return (
       <div className="min-h-screen pt-32 pb-20 bg-gray-50">
+        <SEO {...seoData} />
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h1 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-4">

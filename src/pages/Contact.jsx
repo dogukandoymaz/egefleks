@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
 import { companyInfo } from '../data/mockData';
+import { SEO } from '../components/SEO';
 import {
   Accordion,
   AccordionContent,
@@ -16,6 +17,12 @@ export const Contact = () => {
 
   return (
     <div className="min-h-screen pt-32 pb-20">
+      <SEO 
+        title="İletişim ve Mağaza Bilgileri | Karşıyaka Egefleks"
+        description="İzmir Karşıyaka Anadolu Caddesi üzerindeki mağazamızda parke, duvar kağıdı ve zemin kaplama ürünlerimizi inceleyin. Yol tarifi ve iletişim bilgileri."
+        keywords="egefleks iletişim, karşıyaka parkeci, anadolu caddesi parke, izmir zemin kaplama mağazası, karşıyaka duvar kağıdı adresi"
+        canonical="/iletisim"
+      />
       {/* Header */}
       <section className="py-12 bg-gradient-to-r from-slate-700 to-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">

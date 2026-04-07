@@ -1,10 +1,17 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Tag, ChevronRight } from 'lucide-react';
+import { Tag, ChevronRight } from 'lucide-react';
+import { SEO } from '../components/SEO';
 import { projects } from '../data/mockData';
 
 export const Projects = () => {
   return (
     <div className="min-h-screen pt-32 pb-20">
+      <SEO 
+        title="Tamamlanan Projeler ve Referanslar | Egefleks"
+        description="İzmir, Aydın, Denizli ve Manisa'da gerçekleştirdiğimiz parke, halısaha çimi ve zemin kaplama projelerimizi inceleyin. Profesyonel uygulama örnekleri."
+        keywords="halısaha çimi izmir, halısaha çimi denizli, halısaha çimi aydın, halısaha çimi manisa, halısaha çimi balıkesir, zemin kaplama projeleri, parke uygulama örnekleri"
+        canonical="/projeler"
+      />
       {/* Header */}
       <section className="py-12 bg-gradient-to-r from-slate-700 to-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">
@@ -30,7 +37,7 @@ export const Projects = () => {
                 <div className="relative h-80 overflow-hidden">
                   <img
                     src={project.image}
-                    alt={project.title}
+                    alt={`Egefleks ${project.title} Uygulaması ${project.category}`}
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
