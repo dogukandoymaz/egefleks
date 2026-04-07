@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Phone, Menu, X, MessageCircle } from 'lucide-react';
+import { Phone, Menu, X, MessageCircle, Camera } from 'lucide-react';
 import { companyInfo } from '../data/mockData';
 
 export const Header = () => {
@@ -18,6 +18,10 @@ export const Header = () => {
 
   const handleWhatsApp = () => {
     window.open(`https://wa.me/${companyInfo.whatsapp}`, '_blank');
+  };
+
+  const handleInstagram = () => {
+    window.open(companyInfo.social.instagram, '_blank');
   };
 
   const navLinks = [
@@ -68,7 +72,15 @@ export const Header = () => {
           </nav>
 
           {/* Action Buttons */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <button
+              onClick={handleInstagram}
+              className="flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 overflow-hidden"
+              aria-label="Instagram"
+            >
+              <img src="/instagram.svg" alt="Instagram" className="w-full h-full object-cover" />
+            </button>
+
             <button
               onClick={handleWhatsApp}
               className="hidden sm:flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white rounded-lg hover:from-emerald-600 hover:to-emerald-700 transition-all duration-300 shadow-md hover:shadow-lg"

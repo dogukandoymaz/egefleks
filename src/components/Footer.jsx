@@ -23,9 +23,9 @@ export const Footer = () => {
                 href={companyInfo.social.instagram} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="group flex items-center gap-3 w-fit px-4 py-2 bg-gradient-to-tr from-[#f09433] via-[#e6683c] to-[#bc1888] text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="group flex items-center gap-3 w-fit px-4 py-2 bg-gradient-to-tr from-[#f09433] via-[#e6683c] to-[#bc1888] text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden"
               >
-                <Camera className="w-5 h-5 group-hover:rotate-6 transition-transform" />
+                <img src="/instagram.svg" alt="Instagram" className="w-6 h-6 group-hover:rotate-6 transition-transform" />
                 <span className="text-sm font-semibold">Instagram</span>
               </a>
 
