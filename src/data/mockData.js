@@ -41,7 +41,11 @@ export const productCategories = [
           { name: "Floorpan Parke", slug: "floorpan", image: "/parke-brands/floorpan.png", description: "Klasik meşeden egzotik ağaç dokularına kadar yüzlerce farklı dekor seçeneği sunan Floorpan, her mekana uygun zengin laminat parke koleksiyonlarıyla yaşam alanlarınıza değer katar." },
           { name: "AGT Parke", slug: "agt", image: "/parke-brands/agt.png", description: "Geniş bir ürün yelpazesi sunan AGT, farklı kalınlık, doku ve renk alternatifleriyle modern dekorasyon trendlerine yön veren yenilikçi parke çeşitlerine sahiptir." },
           { name: "Çamsan Parke", slug: "camsan", image: "/parke-brands/camsan.png", description: "Klasikten moderne uzanan geniş renk skalası ve farklı yüzey dokularıyla Çamsan, mekanlarınızı kişiselleştirmeniz için sayısız ürün seçeneği ve zengin bir desen yelpazesi sunar." },
-          { name: "Peli Parke", slug: "peli", image: "/parke-brands/peli.png", description: "Farklı kullanım alanları için özel olarak tasarlanmış çeşitli seri ve dekor alternatifleri ile Peli, ahşabın doğal görünümünü yaşam alanlarınıza taşıyan geniş bir ürün gamına sahiptir." }
+          { name: "Peli Parke", slug: "peli", image: "/parke-brands/peli.png", description: "Farklı kullanım alanları için özel olarak tasarlanmış çeşitli seri ve dekor alternatifleri ile Peli, ahşabın doğal görünümünü yaşam alanlarınıza taşıyan geniş bir ürün gamına sahiptir." },
+          { name: "Vario Clic Parke", slug: "vario", image: "/parke-brands/vario.png", description: "Üstün kalite ve dayanıklılığı estetikle birleştiren Vario Clic, her zevke hitap eden geniş renk ve desen seçenekleriyle zeminlerinize değer katar." },
+          { name: "TerraClick Parke", slug: "terraclick", image: "/parke-brands/terraclick.png", description: "Ekonomik ve pratik zemin çözümleri sunan TerraClick, doğal görünümü ve kolay montaj özelliği ile mekanlarınızı hızlıca yeniler." },
+          { name: "Krono Original Parke", slug: "krono", image: "/parke-brands/krono.png", description: "Dünya standartlarında üretim kalitesiyle Krono Original, zamansız tasarımları ve yüksek aşınma direnciyle uzun ömürlü kullanım sunar." },
+          { name: "Veroxfloor Parke", slug: "verox-laminat", image: "/parke-brands/verox.png", description: "Modern çizgileri ve zengin doku alternatifleriyle Veroxfloor, mekanlarınıza prestijli ve şık bir görünüm kazandırır." }
         ]
       },
       {
@@ -89,7 +93,17 @@ export const productCategories = [
           { name: "Adawall Duvar Kağıdı", slug: "adawall", image: "/duvar-kagidi/adawall.png", description: "Modern ve klasik desenleri bir arada sunan, yüksek kaliteli Adawall duvar kağıtları ile duvarlarınıza sanat katın." },
           { name: "Vertu Duvar Kağıdı", slug: "vertu", image: "/duvar-kagidi/vertu.png", description: "Lüks ve estetiği buluşturan Vertu duvar kağıdı koleksiyonları, mekanlarınıza prestijli bir görünüm kazandırır." },
           { name: "Novamur Duvar Kağıdı", slug: "novamur", image: "/duvar-kagidi/novamur.png", description: "Yenilikçi tasarımları ve dayanıklı dokusuyla Novamur, modern yaşam alanları için ideal çözümler sunar." },
-          { name: "Decowall Duvar Kağıdı", slug: "decowall", image: "/duvar-kagidi/decowall.png", description: "Geniş desen ve renk seçenekleriyle Decowall, her zevke uygun dekoratif duvar kağıdı alternatifleri sunar." }
+          { name: "Decowall Duvar Kağıdı", slug: "decowall", image: "/duvar-kagidi/decowall.png", description: "Geniş desen ve renk seçenekleriyle Decowall, her zevke uygun dekoratif duvar kağıdı alternatifleri sunar." },
+          { name: "Sheima Duvar Kağıdı", slug: "sheima", image: "/duvar-kagidi/sheima.png", description: "Zarif desenleri ve yüksek kaliteli dokusuyla Sheima, duvarlarınıza modern ve şık bir derinlik kazandırır." }
+        ]
+      },
+      {
+        id: "poster-kagidi",
+        name: "Duvar Kağıdı Posteri",
+        description: "İstediğiniz görseli duvar ölçülerinize göre özel baskı hizmetimizle hazırlıyoruz. Mekanlarınıza derinlik katan panoramik ve kişiye özel poster çözümlerimizle tanışın.",
+        brands: [
+          { name: "Poster Uygulama Görseli 1", slug: "poster-1", image: "/duvar-kagidi/poster1.png", description: "Duvar ölçülerinize tam uyumlu, yüksek çözünürlüklü özel tasarım poster baskı uygulaması." },
+          { name: "Poster Uygulama Görseli 2", slug: "poster-2", image: "/duvar-kagidi/poster2.png", description: "Kişiye özel görsel seçenekleriyle mekanlarınıza derinlik katan poster duvar kağıdı örneği." }
         ]
       }
     ],
@@ -143,7 +157,8 @@ export const productCategories = [
           { name: "Kotil", slug: "kotil", image: "/halifleks/kotil.png", description: "Yüksek kaliteli duvardan duvara ve karo halı çözümleri sunan Kotil, mekanlarınıza sıcaklık ve konfor katar." },
           { name: "LCT", slug: "lct", image: "/halifleks/lct.png", description: "Modern tasarımları ve dayanıklı dokusuyla LCT halı koleksiyonları, estetik ve fonksiyonelliği buluşturur." },
           { name: "Contensse", slug: "contensse", image: "/halifleks/contensse.png", description: "Lüks ve zerafeti duvarlarınızdan zeminlerinize taşıyan Contensse halı çeşitleri ile mekanların nı özelleştirin." },
-          { name: "Samur", slug: "samur", image: "/halifleks/samur.png", description: "Türkiye'nin köklü halı markalarından Samur, geniş renk ve desen yelpazesiyle her mekana uygun çözümler sunar." }
+          { name: "Samur", slug: "samur", image: "/halifleks/samur.png", description: "Türkiye'nin köklü halı markalarından Samur, geniş renk ve desen yelpazesiyle her mekana uygun çözümler sunar." },
+          { name: "Nurteks", slug: "nurteks-hali", image: "/halifleks/nurteks.png", description: "Halıfleks ve duvardan duvara halı serilerinde konforu ve dayanıklılığı birleştiren Nurteks, zengin doku seçenekleriyle her mekana uygun çözümler üretir." }
         ]
       }
     ],
@@ -167,8 +182,9 @@ export const productCategories = [
         name: "PVC Markalarımız",
         description: "Dünyanın önde gelen PVC zemin kaplama markalarıyla yüksek dayanıklılık ve estetiği birleştiriyoruz.",
         brands: [
-          { name: "Tarkett", slug: "tarkett", image: "/pvc-brands/tarkett.png", description: "Yenilikçi ve sürdürülebilir zemin çözümlerinde dünya lideri Tarkett, her türlü ticari ve endüstriyel alan için estetik ve dayanıklı PVC kaplamalar sunar." },
-          { name: "Net Floor", slug: "net-floor", image: "/pvc-brands/net-floor.png", description: "Modern tasarımları ve üstün performans özellikleriyle Net Floor, yoğun trafikli alanlar için ideal ve ekonomik PVC zemin çözümleri geliştirir." }
+          { name: "Tarkett", slug: "tarkett", image: "/pvc-brands/tarkett.png", description: "Yenilikçi ve sürdürülebilir zemin çözümleriinde dünya lideri Tarkett, her türlü ticari ve endüstriyel alan için estetik ve dayanıklı PVC kaplamalar sunar." },
+          { name: "Net Floor", slug: "net-floor", image: "/pvc-brands/net-floor.png", description: "Modern tasarımları ve üstün performans özellikleriyle Net Floor, yoğun trafikli alanlar için ideal ve ekonomik PVC zemin çözümleri geliştirir." },
+          { name: "GerFlor", slug: "gerflor", image: "/pvc-brands/gerflor.png", description: "Yüksek teknolojiyle üretilen GerFlor PVC zemin kaplamaları, üstün aşınma direnci ve modern tasarımları ile profesyonel mekanların ilk tercihidir." }
         ]
       }
     ],
@@ -208,7 +224,8 @@ export const productCategories = [
         brands: [
           { name: "Modema Duvar Paneli", slug: "modema", image: "/duvar-paneli/modema.png", description: "Modern tasarımları ve zengin doku seçenekleriyle Modema, duvarlarınıza 3 boyutlu bir derinlik ve şıklık katar." },
           { name: "AdaPanel Duvar Paneli", slug: "adapanel", image: "/duvar-paneli/adapanel.png", description: "Kolay montajı ve dayanıklı yapısıyla AdaPanel, mekanlarınızı kısa sürede yenilemeniz için estetik çözümler sunar." },
-          { name: "Peli Duvar Paneli", slug: "peli-panel", image: "/duvar-paneli/peli.png", description: "Peli kalitesiyle üretilen duvar panelleri, ahşabın doğal sıcaklığını ve modern dekorasyon trendlerini duvarlarınıza taşır." }
+          { name: "Peli Duvar Paneli", slug: "peli-panel", image: "/duvar-paneli/peli.png", description: "Peli kalitesiyle üretilen duvar panelleri, ahşabın doğal sıcaklığını ve modern dekorasyon trendlerini duvarlarınıza taşır." },
+          { name: "AGT Duvar Paneli", slug: "agt-panel", image: "/duvar-paneli/agt.png", description: "Zengin model ve yüzey seçenekleriyle AGT duvar panelleri, her türlü dekorasyon stiline uyum sağlayan estetik ve sağlam çözümler sunar." }
         ]
       }
     ],
@@ -286,8 +303,9 @@ export const projects = [
     category: "Çim Halı",
     slug: "hali-saha-uygulamalari",
     location: "Ege Bölgesi Genel",
-    image: "/projects/halisaha/halisaha1.png",
+    image: "/projects/halisaha/halisaha5.png",
     images: [
+      "/projects/halisaha/halisaha5.png",
       "/projects/halisaha/halisaha1.png",
       "/projects/halisaha/halisaha2.png",
       "/projects/halisaha/halisaha3.png",
