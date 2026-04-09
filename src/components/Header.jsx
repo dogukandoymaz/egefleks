@@ -28,6 +28,7 @@ export const Header = () => {
     { path: '/', label: 'Ana Sayfa' },
     { path: '/urunler', label: 'Ürünler' },
     { path: '/projeler', label: 'Projeler' },
+    { path: '/blog', label: 'Blog' },
     { path: '/hakkimizda', label: 'Hakkımızda' },
     { path: '/iletisim', label: 'İletişim' }
   ];

@@ -131,7 +131,7 @@ export const Contact = () => {
             {/* Google Maps Embed */}
             <div className="rounded-2xl overflow-hidden shadow-xl h-[400px] md:h-[500px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.1234567890!2d27.0937!3d38.4632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDI3JzQ3LjUiTiAyN8KwMDUnMzcuMyJF!5e0!3m2!1str!2str!4v1234567890"
+                src={`https://maps.google.com/maps?q=${encodeURIComponent(companyInfo.address)}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

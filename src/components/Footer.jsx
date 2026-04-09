@@ -19,9 +19,9 @@ export const Footer = () => {
               {companyInfo.tagline}
             </p>
             <div className="flex flex-col gap-3 mt-6">
-              <a 
-                href={companyInfo.social.instagram} 
-                target="_blank" 
+              <a
+                href={companyInfo.social.instagram}
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3 w-fit px-4 py-2 bg-gradient-to-tr from-[#f09433] via-[#e6683c] to-[#bc1888] text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden"
               >
@@ -29,9 +29,9 @@ export const Footer = () => {
                 <span className="text-sm font-semibold">Instagram</span>
               </a>
 
-              <a 
-                href={`https://wa.me/${companyInfo.whatsapp}`} 
-                target="_blank" 
+              <a
+                href={`https://wa.me/${companyInfo.whatsapp}`}
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3 w-fit px-4 py-2 bg-[#25D366] text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >

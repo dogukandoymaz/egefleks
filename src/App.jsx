@@ -10,8 +10,9 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { BrandDetail } from './pages/BrandDetail';
 import { ProjectDetail } from './pages/ProjectDetail';
+import { Blog } from './pages/Blog';
+import { BlogDetail } from './pages/BlogDetail';
 import ScrollToTop from './components/ScrollToTop';
-
 function App() {
   return (
     <BrowserRouter>
@@ -26,6 +27,8 @@ function App() {
             <Route path="/marka/:brandSlug" element={<BrandDetail />} />
             <Route path="/projeler" element={<Projects />} />
             <Route path="/proje/:slug" element={<ProjectDetail />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogDetail />} />
             <Route path="/hakkimizda" element={<About />} />
             <Route path="/iletisim" element={<Contact />} />
           </Routes>

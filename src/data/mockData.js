@@ -447,3 +447,178 @@ export const faqs = [
     answer: "Kredi kartına taksit, havale/EFT ve peşin ödeme indirimleri gibi birçok seçenek sunmaktayız."
   }
 ];
+
+export const blogPosts = [
+  {
+    id: 1,
+    title: "İzmir'de Laminat Parke Seçerken Dikkat Edilmesi Gerekenler",
+    slug: "izmir-laminat-parke-secimi",
+    category: "Laminat Parke",
+    date: "10 Nisan 2026",
+    image: "https://images.unsplash.com/photo-1575204015311-0fe377370780?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHwzfHxsYW1pbmF0ZSUyMGZsb29yaW5nfGVufDB8fHx8MTc3NDk0NzE5Mnww&ixlib=rb-4.1.0&q=85",
+    summary: "İzmir'in nemli havasında laminat parke seçimi nasıl olmalı? Karşıyaka laminat parke mağazası Egefleks olarak sizlere ipuçları veriyoruz.",
+    content: `
+      <h2>İzmir'de Laminat Parke Uygulamalarının Püf Noktaları</h2>
+      <p>İzmir, özellikle deniz kenarındaki Karşıyaka, Bostanlı gibi bölgelerde yüksek nem oranına sahip bir şehirdir. Bu nedenle zemin malzemesi seçerken görsellik kadar dayanıklılık da büyük önem taşır. <strong>İzmir laminat parke</strong> ihtiyaçlarınızda, Egefleks Zemin olarak en kaliteli ürünleri sunuyoruz.</p>
+      
+      <h3>Neden Kaliteli Bir Parke Tercih Edilmeli?</h3>
+      <p>Laminat parkeler, doğal ahşap görünümünü uzun yıllar ilk günkü canlılığıyla korumak üzere tasarlanmıştır. Ancak <strong>Ege Bölgesi'nin iklim şartlarına</strong> uygun, genleşme payları doğru hesaplanmış bir montaj çok önemlidir. Profesyonel ekibimizle, evinizin veya ofisinizin ihtiyacına en uygun <em>laminat parke modellerini</em> beğeninize sunuyoruz.</p>
+      
+      <h3>Sınıf (Class) Seçimi Nasıl Olmalı?</h3>
+      <p>Parke seçerken AC3, AC4 gibi sınıflandırmalarla karşılaşırsınız. Ev içi kullanımlarda genellikle 31. Sınıf (AC3) yeterli olurken, İzmir'deki yoğun ofis ortamları veya mağazalar için 32. Sınıf (AC4) ve üzeri ürünler tavsiye ediyoruz. Detaylı bilgi ve <strong>ücretsiz keşif</strong> için bizimle iletişime geçebilirsiniz.</p>
+    `
+  },
+  {
+    id: 2,
+    title: "Ege Bölgesi'nde Lamine Parke Zarafeti",
+    slug: "ege-bolgesi-lamine-parke-zarafeti",
+    category: "Lamine Parke",
+    date: "8 Nisan 2026",
+    image: "https://images.pexels.com/photos/368754/pexels-photo-368754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    summary: "%100 doğal ağaç dokusunu zeminlerinize taşıyan lamine parke çözümleri ile evinizde prestijli ve sıcak bir atmosfer yaratın.",
+    content: `
+      <h2>Lamine Parke Nedir ve Neden Tercih Edilmelidir?</h2>
+      <p>Lamine parke, tamamı doğal ahşaptan üretilen, estetik kusursuzluğu ve dayanıklılığı birleştiren üst düzey bir zemin kaplamasıdır. Özellikle <strong>İzmir ve Ege Bölgesi'ndeki</strong> lüks konut, villa ve prestijli ofis projelerinde sıklıkla tercih edilir.</p>
+
+      <h3>%100 Doğal Ahşap Dokusu</h3>
+      <p>Lamine parkenin en büyük avantajı, tamamen organik olması ve ahşabın doğasından gelen nefes alan yapısıdır. Üst katmanında kullanılan değerli ağaç cinsleri sayesinde, uygulandığı mekana paha biçilemez bir sıcaklık ve lüks katar.</p>
+
+      <h3>İzmir Villa ve Evlerinde Lamine Parke Kullanımı</h3>
+      <p>Yaz aylarında serin, kış aylarında sıcak tutma özelliğine sahip bu parkeler, yerden ısıtma sistemlerine de tam uyumludur. Sağlıklı, uzun ömürlü ve zamansız bir estetik arıyorsanız, <strong>Karşıyaka lamine parke</strong> uzmanı Egefleks olarak sizlere Şerifoğlu ve Veroxfloor gibi dev markalarla hizmet sunmaktan mutluluk duyarız.</p>
+    `
+  },
+  {
+    id: 3,
+    title: "İzmir'in Yeni Gözdesi: Özellikleriyle SPC Parke",
+    slug: "izmirin-yeni-gozdesi-spc-parke",
+    category: "SPC Parke",
+    date: "5 Nisan 2026",
+    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGludGVyaW9yfGVufDB8fHx8MTY4NDc0NDg3NA&ixlib=rb-4.0.3&q=85",
+    summary: "Suya %100 dayanıklı, yüksek performanslı ve taş tozu karışımlı SPC parkelerin İzmir zemin tasarımındaki yükselişi.",
+    content: `
+      <h2>SPC Parke (Stone Plastic Composite) Nedir?</h2>
+      <p>Son yılların en devrim niteliğindeki zemin kaplama teknolojisi olan <strong>SPC (Stone Plastic Composite) parke</strong>, taş tozu ve PVC karışımı özel yapısı sayesinde suya ve neme tam dayanıklılık sağlar. <em>İzmir'de rutubet sorunu yaşayan zeminlerde</em> ya da kordon boyu yazlık evlerde mükemmel bir çözümdür.</p>
+
+      <h3>Mutfak ve Banyolarda Parke Görüntüsü</h3>
+      <p>SPC parkeler suya tamamen dayanıklı olduğu için klasik parkelerin kullanılamadığı mutfak, banyo ve kış bahçesi gibi ıslak zeminlerde ahşap sıcaklığını yakalamanızı sağlar. Temizliği son derece basittir ve şişme, kabarma yapmaz.</p>
+
+      <h3>Ege Bölgesi Boyunca SPC Uygulamaları</h3>
+      <p>Egefleks Zemin olarak, Fortika ve Zemora markalarının yüksek kaliteli <strong>SPC parke İzmir</strong> uygulamalarını profesyonel ekibimizle gerçekleştiriyoruz. Darbelere karşı müthiş dirençli bu yeni nesil teknolojiyi yakından incelemek için mağazamızda sizi kahveye bekliyoruz.</p>
+    `
+  },
+  {
+    id: 4,
+    title: "Karşıyaka Duvar Kağıdı Modelleri: Evinize Derinlik Katın",
+    slug: "karsiyaka-duvar-kagidi-modelleri",
+    category: "Duvar Kağıdı",
+    date: "1 Nisan 2026",
+    image: "https://images.pexels.com/photos/7166633/pexels-photo-7166633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    summary: "Yaşam alanlarınıza sanat katacak duvar kağıtları ve panoramik poster uygulamaları ile evinizin enerjisini tamamen değiştirin.",
+    content: `
+      <h2>Duvarlarınızı Sıradanlıktan Kurtarın</h2>
+      <p>Boya badana çoğu zaman tekdüze bir görünüm yaratırken, kaliteli bir <strong>duvar kağıdı</strong> mekanın tüm kimliğini sıfırdan oluşturur. <em>İzmir Karşıyaka duvar kağıdı modelleri</em> arayışınızda, Egefleks'in geniş yelpazedeki ürün kataloğu her bütçeye ve zevke hitap eder.</p>
+
+      <h3>2026 Trendleri: Hangi Desenler Moda?</h3>
+      <p>Günümüzde geometrik hatlar, 3 boyutlu algı yaratan desenler ve özel ölçü poster baskılar revaçta. Özellikle evlerde odak duvarı (TV arkası veya yatak başı) yaratmak, mekana derinlik ve prestij katar.</p>
+
+      <h3>Poster Duvar Kağıtları</h3>
+      <p>Kişiye özel ölçülerle ürettiğimiz panorama ve 3 boyutlu görsel posterler, iş yerlerinde ve modern salonlarda harika sonuçlar veriyor. <strong>Ege bölgesi duvar kağıdı satışlarında</strong> zengin ürün çeşitliliğine önem veriyor, kusursuz desenlerle mekanlarınıza değer katıyoruz.</p>
+    `
+  },
+  {
+    id: 5,
+    title: "İzmir Bahçe, Teras ve Balkonları İçin Çim Halı Çözümleri",
+    slug: "izmir-bahceleri-icin-cim-hali",
+    category: "Çim Halı",
+    date: "25 Mart 2026",
+    image: "https://images.unsplash.com/photo-1659577843589-55345bcdbee8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwzfHxhcnRpZmljaWFsJTIwZ3Jhc3N8ZW58MHx8fGdyZWVufDE3NzQ5NDcyNTR8MA&ixlib=rb-4.1.0&q=85",
+    summary: "Doğal çim görünümü ve minimum bakım gerektiren yapısı ile Nurteks çim halı modelleri balkon ve bahçe keyfinizi katlayacak.",
+    content: `
+      <h2>4 Mevsim Yemyeşil Mekanlar</h2>
+      <p>İzmir'in yazları sıcak ve kuraktır. Doğal çimin bakımı, sulanması ve canlı tutulması genellikle çok zahmetli ve masraflıdır. İşte bu noktada <strong>suni çim halı İzmir</strong> çözümleri devreye giriyor. Balkonlarda, teraslarda, havuz kenarlarında veya kafelerde yeşil bir vahaya kavuşmak artık çok kolay.</p>
+
+      <h3>Nurteks Güvencesiyle Landscape Ürünler</h3>
+      <p>Peyzaj serisi ürünlerimiz UV ışınlarına karşı tam korumalıdır. Ege güneşi altında rengi atmaz veya dokusu bozulmaz. 20mm'den başlayıp 40mm'ye kadar varan kalınlık ve sıklık seçenekleriyle, çıplak ayakla basıldığında doğal çim hissini birebir verir.</p>
+
+      <h3>Temizliği ve Bakımı</h3>
+      <p>Doğal çimlerdeki böceklenme, çamur oluşumu gibi problemleri <em>çim halı</em> sayesinde asla yaşamazsınız. Su süzme delikleri sayesinde yağan yağmurda su birikmesi yapmaz, kuruduktan sonra hemen kullanıma açık hale gelir. <strong>Karşıyaka çim halı satan yerler</strong> arasında kalitesiyle öne çıkan Egefleks'ten fiyat almadan karar vermeyin.</p>
+    `
+  },
+  {
+    id: 6,
+    title: "Ege Bölgesi Suni Halı Saha Projeleri",
+    slug: "ege-bolgesi-suni-hali-saha-kurulumu",
+    category: "Suni Halısaha",
+    date: "18 Mart 2026",
+    image: "/projects/halisaha/halisaha5.png",
+    summary: "Profesyonel standartlarda uzun ömürlü ve performanslı sentetik çim saha kurulumlarında Egefleks tecrübesine güvenin.",
+    content: `
+      <h2>Doğru Halı Saha Zemini Nasıl Olmalıdır?</h2>
+      <p>Ticari halı sahaların işletme maliyetini ve yatırım getirisini doğrudan etkileyen en önemli faktör zemindir. <strong>İzmir suni halı saha yapımı</strong> projelerinde FIFA standartlarına uygun iplik yapısına sahip kaliteli ürünleri, profesyonel silis kumu ve SBR granül dolgularıyla uyguluyoruz.</p>
+
+      <h3>Yüksek Performans ve Oyuncu Güvenliği</h3>
+      <p>İyi bir suni çim; darbeleri emen, kayma ve yanıkları minimize eden bir yapıya sahip olmalıdır. Ege Bölgesi'nin dört bir yanına gerçekleştirdiğimiz <strong>halı saha projelerinde</strong>, ipliğin kalitesi kadar zemin altyapısının düzgünlüğüne ve montajın kalitesine de çok dikkat ediyoruz.</p>
+
+      <h3>Yatırımınız Koruma Altında</h3>
+      <p>Sahanın ömrü direkt olarak kullanılan çimin kalitesine bağlıdır. 55mm kalınlığındaki profesyonel fibrile veya monofilament sentetik çimlerimizle, aşınmalara uzun yılla meydan okuyoruz. Kurulum, yenileme veya granül takviyesi gibi hizmetler için <strong>Ege Bölgesi profesyonel halı saha uygulaması</strong> yapan firmamızla görüşün.</p>
+    `
+  },
+  {
+    id: 7,
+    title: "İzmir Evlerinde Duvardan Duvara Halı ile Sıcaklık",
+    slug: "duvardan-duvara-hali",
+    category: "Halıfleks",
+    date: "12 Mart 2026",
+    image: "https://images.unsplash.com/photo-1515895309288-a3815ab7cf81?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwzfHxQVkMlMjBmbG9vcmluZ3xlbnwwfHx8fDE3NzQ5NDcyNTh8MA&ixlib=rb-4.1.0&q=85",
+    summary: "Otellerden, sinema salonlarına, yatak odalarından çocuk odalarına: Konforlu ve akustik zemin çözümü.",
+    content: `
+      <h2>Duvardan Duvara Halıfleks’in Yeniden Yükselişi</h2>
+      <p>Uzun yıllardır lüks oteller ve prestijli ofislerde standart olan <strong>duvardan duvara halı (halıfleks)</strong> çözümleri, antibakteriyel üretim teknolojileriyle artık evlerin ve yatak odalarının da yeni gözdelerinden biri oldu. <em>İzmir halıfleks kaplama</em> konusunda aradığınız yumuşak dokuyu Egefleks'te bulabilirsiniz.</p>
+
+      <h3>Konfor ve Isı Yalıtımı</h3>
+      <p>Halı zeminler, diğer kaplama türlerine göre ısıyı odanın içinde hapseder. Aynı zamanda yankı ve ayak sesini sıfırlar, müthiş bir akustik ortam sunar. Yatak odası, giyinme odası ve çocuk odalarında tercih etmeniz durumunda mekana sıradışı bir butik otel konforu taşımış olursunuz.</p>
+
+      <h3>İzmir Duvardan Duvara Halı Firmaları</h3>
+      <p>Samur, Nurteks, LCT ve Kotil gibi Türkiye'nin önde gelen halı markalarının tüm kreasyonlarını <strong>Karşıyaka Egefleks zemin mağazamızda</strong> inceleyebilirsiniz. Zengin renk seçeneklerinden, leke tutmaz özel dokulara kadar her projeye ve bütçeye uygun profesyonel halı döşeme uygulamamızdan yararlanmak bir telefon kadar uzağınızda.</p>
+    `
+  },
+  {
+    id: 8,
+    title: "Karşılaştırma: Çim Halı mı, Doğal Çim mi?",
+    slug: "cim-hali-mi-dogal-cim-mi",
+    category: "Çim Halı",
+    date: "10 Nisan 2026",
+    image: "https://images.pexels.com/photos/13083599/pexels-photo-13083599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    summary: "Bahçeniz veya balkonunuz için en iyi peyzaj çözümü hangisi? Bakım maliyetleri ve uzun ömürlülük açısından Çim Halının avantajları.",
+    content: `
+      <h2>Bahçeniz İçin En Doğru Kararı Verin</h2>
+      <p>Bahar aylarının gelmesiyle birlikte herkes bahçesinde veya balkonunda yeşil bir alan yaratmak istiyor. Ancak doğal çim ile <strong>suni çim halı</strong> arasında seçim yapmak çoğu zaman kafa karıştırıcı olabiliyor. Yaptığımız karşılaştırmanın açık ara kazananı: <strong>Çim Halı</strong>.</p>
+
+      <h3>Maliyet ve Bakım Kolaylığı</h3>
+      <p>Doğal çimin sürekli sulanması, biçilmesi ve gübrelenmesi gerekir. Özellikle İzmir'in sıcak yaz aylarında su faturaları doğal çim için oldukça kabarık gelir. Oysa <em>suni çim halı</em>, sulama ve bakım gerektirmeden 4 mevsim yemyeşil kalır, zamanla kendini amorti eder.</p>
+
+      <h3>Böceklenme ve Dayanıklılık</h3>
+      <p>Doğal çimlerde böceklenme ve haşere sorunu varken, çim halıda polipropilen/polietilen malzeme sayesinde steril bir ortam sağlanır. Temizliği sadece su tutularak yapılır, leke tutmaz ve çocuklarınız veya evcil hayvanlarınız için çok daha güvenlidir. Egefleks olarak bahçelerinizi Nurteks çim halı modelleriyle tanıştırıyoruz.</p>
+    `
+  },
+  {
+    id: 9,
+    title: "Karşılaştırma: Duvar Kağıdı mı, Boya mı?",
+    slug: "duvar-kagidi-mi-boya-mi",
+    category: "Duvar Kağıdı",
+    date: "11 Nisan 2026",
+    image: "https://images.unsplash.com/photo-1760172287483-02d382f63a6f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjB3YWxscGFwZXJ8ZW58MHx8fHwxNzc0OTQ3MjIzfDA&ixlib=rb-4.1.0&q=85",
+    summary: "Mekan yenilerken klasik boya yöntemleri mi, yoksa duvar kağıdı mı? Kesin kazananı belirliyoruz: Duvar Kağıdı ile sonsuz tasarım özgürlüğü.",
+    content: `
+      <h2>Duvarlarınızı Yenilerken Hangi Yöntem Daha Avantajlı?</h2>
+      <p>Ev veya ofis dekorasyonunda en çok ikilemde kalınan konu, duvarlarda kullanılacak malzemedir. Klasik boya mı, yoksa <strong>duvar kağıdı mı?</strong> Hem estetik hem de pratiklik açısından karşılaştırmamızın kazananı hiç şüphesiz <strong>Duvar Kağıdı</strong> oldu.</p>
+
+      <h3>Sonsuz Desen ve Doku Özgürlüğü</h3>
+      <p>Boya badana ile ancak düz ve tekdüze renkler elde edebilirsiniz. Duvar kağıdı ise 3 boyutlu algı, damask veya geometrik desenler, taş ve ahşap görünümleri gibi sayısız estetik seçenek sunar. Mekanın ruhunu, sıradan bir odadan lüks bir otel odasına çevirebilecek güce sahiptir.</p>
+
+      <h3>Uygulama Kolaylığı ve Ömür</h3>
+      <p>Boya yaparken oluşan damlama, eşyaların üstünü örtme ve yoğun boya kokusu duvar kağıdı uygulamalarında yoktur. Birkaç saat içinde temiz bir şekilde uygulanır ve mekanı anında değiştirebilirsiniz. Üstelik kaliteli vinil duvar kağıtları silinebilir yapıdadır ve boyaya göre yıllarca solmadan, çizilmeden dayanır. Geniş <em>duvar kağıdı modellerimizle</em> hayatınıza renk katmak için Egefleks mağazasına davetlisiniz.</p>
+    `
+  }
+];
+
