@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, MessageCircle, Globe, Camera } from 'lucide-react';
-import { companyInfo } from '../data/mockData';
+import { companyInfo, locationPages } from '../data/mockData';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -110,6 +110,22 @@ export const Footer = () => {
                 <span className="text-sm">{companyInfo.workingHours}</span>
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* Service Locations SEO Links */}
+        <div className="border-t border-slate-700 mt-12 pt-8">
+          <h4 className="text-white font-semibold text-sm mb-6 text-center tracking-wider uppercase text-slate-400">Hizmet Bölgelerimiz</h4>
+          <div className="flex flex-wrap justify-center gap-3 max-w-5xl mx-auto">
+             {locationPages.map(page => (
+               <Link 
+                 key={page.slug} 
+                 to={`/${page.slug}`} 
+                 className="text-xs text-gray-400 hover:text-amber-500 bg-slate-700/30 px-3 py-1.5 rounded-full transition-colors whitespace-nowrap"
+               >
+                 {page.location} {page.service}
+               </Link>
+             ))}
           </div>
         </div>
 
