@@ -84,17 +84,17 @@ export const LocationPage = () => {
             <div className="flex flex-col sm:flex-row gap-4 mb-4">
               <button 
                 onClick={handleWhatsApp}
-                className="flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-4 rounded-xl font-semibold shadow-lg shadow-emerald-500/30 transition-all hover:-translate-y-1"
+                className="flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-6 py-3 rounded-xl font-semibold shadow-lg shadow-emerald-500/30 transition-all hover:-translate-y-1 whitespace-nowrap"
               >
-                <MessageCircle className="w-5 h-5" />
-                Hemen Fiyat Alın
+                <MessageCircle className="w-5 h-5 flex-shrink-0" />
+                <span>Hemen Fiyat Alın</span>
               </button>
               <a 
                 href={`tel:${companyInfo.phone}`}
-                className="flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 px-8 py-4 rounded-xl font-semibold transition-all"
+                className="flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 px-6 py-3 rounded-xl font-semibold transition-all whitespace-nowrap"
               >
-                <Phone className="w-5 h-5" />
-                {companyInfo.phone}
+                <Phone className="w-5 h-5 flex-shrink-0" />
+                <span>{companyInfo.phone}</span>
               </a>
             </div>
             <p className="text-xs text-gray-400 mt-2 flex items-center gap-1">
