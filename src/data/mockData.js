@@ -622,3 +622,42 @@ export const blogPosts = [
   }
 ];
 
+export const seoLocations = ['Karşıyaka', 'Bostanlı', 'Mavişehir', 'Çiğli'];
+
+export const seoServices = [
+  { name: 'Parke', slug: 'parke', image: '/projects/parke/parke2.png', desc: 'doğal ahşap görünümlü, dayanıklı lamine, laminat ve yüksek performanslı SPC parke' },
+  { name: 'Suni Çim', slug: 'suni-cim', image: '/projects/halisaha/halisaha5.png', desc: 'uzun ömürlü, bakım gerektirmeyen profesyonel suni çim' },
+  { name: 'Çim Halı', slug: 'cim-hali', image: '/projects/landscape/landscape1.png', desc: 'balkon ve bahçeleriniz için estetik, 4 mevsim yeşil çim halı' },
+  { name: 'Duvar Kağıdı', slug: 'duvar-kagidi', image: 'https://images.pexels.com/photos/7166633/pexels-photo-7166633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', desc: 'evinize özel 3 boyutlu, şık ve modern duvar kağıdı' },
+  { name: 'Kapı', slug: 'kapi', image: '/kapi/westdoor1.png', desc: 'şık, modern ve dayanıklı birinci sınıf iç mekan kapı' },
+  { name: 'Duvar Paneli', slug: 'duvar-paneli', image: '/projects/duvarpaneli/panel1.png', desc: 'mekanlarınıza derinlik katan estetik 3D dekoratif duvar paneli' },
+  { name: 'Halıfleks', slug: 'halifleks', image: '/projects/karohali/karo1.png', desc: 'konforlu, akustik ve antibakteriyel duvardan duvara halı' }
+];
+
+const generateLocationPages = () => {
+    const pages = [];
+    const charMap = {
+        'ş': 's', 'Ş': 's', 'ı': 'i', 'İ': 'i', 'ğ': 'g', 'Ğ': 'g',
+        'ü': 'u', 'Ü': 'u', 'ö': 'o', 'Ö': 'o', 'ç': 'c', 'Ç': 'c'
+    };
+    const slugify = (text) => text.toLowerCase().split('').map(c => charMap[c] || c).join('').replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
+
+    seoLocations.forEach(loc => {
+        seoServices.forEach(srv => {
+            const slug = `${slugify(loc)}-${srv.slug}`;
+            pages.push({
+                id: slug,
+                slug,
+                location: loc,
+                service: srv.name,
+                image: srv.image,
+                desc: srv.desc,
+                title: `${loc} ${srv.name} Çözümleri | Egefleks`,
+                summary: `${loc} bölgesindeki ev ve iş yerleriniz için en uygun ve kaliteli ${srv.name.toLowerCase()} çözümlerini profesyonel ekibimizle sunuyoruz. Geniş ürün yelpazesi, uygun fiyat ve hızlı teslimat için Egefleks mağazamıza bekleriz.`
+            });
+        });
+    });
+    return pages;
+};
+
+export const locationPages = generateLocationPages();

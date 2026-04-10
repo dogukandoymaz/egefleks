@@ -12,6 +12,7 @@ import { BrandDetail } from './pages/BrandDetail';
 import { ProjectDetail } from './pages/ProjectDetail';
 import { Blog } from './pages/Blog';
 import { BlogDetail } from './pages/BlogDetail';
+import { LocationPage } from './pages/LocationPage';
 import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
             <Route path="/blog/:slug" element={<BlogDetail />} />
             <Route path="/hakkimizda" element={<About />} />
             <Route path="/iletisim" element={<Contact />} />
+            {/* SEO Dynamic Local Pages: Must be at the bottom */}
+            <Route path="/:slug" element={<LocationPage />} />
           </Routes>
         </main>
         <Footer />
