@@ -493,7 +493,7 @@ export const blogPosts = [
     slug: "izmirin-yeni-gozdesi-spc-parke",
     category: "SPC Parke",
     date: "5 Nisan 2026",
-    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGludGVyaW9yfGVufDB8fHx8MTY4NDc0NDg3NA&ixlib=rb-4.0.3&q=85",
+    image: "/projects/parke/parke2.png",
     summary: "Suya %100 dayanıklı, yüksek performanslı ve taş tozu karışımlı SPC parkelerin İzmir zemin tasarımındaki yükselişi.",
     content: `
       <h2>SPC Parke (Stone Plastic Composite) Nedir?</h2>
@@ -589,16 +589,16 @@ export const blogPosts = [
     category: "Çim Halı",
     date: "10 Nisan 2026",
     image: "https://images.pexels.com/photos/13083599/pexels-photo-13083599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    summary: "Bahçeniz veya balkonunuz için en iyi peyzaj çözümü hangisi? Bakım maliyetleri ve uzun ömürlülük açısından Çim Halının avantajları.",
+    summary: "Bahçeniz veya balkonunuz için zemin seçimi yaparken bakım maliyetleri, kullanım şartları ve uzun ömürlülük gibi kriterleri sizin için karşılaştırdık.",
     content: `
-      <h2>Bahçeniz İçin En Doğru Kararı Verin</h2>
-      <p>Bahar aylarının gelmesiyle birlikte herkes bahçesinde veya balkonunda yeşil bir alan yaratmak istiyor. Ancak doğal çim ile <strong>suni çim halı</strong> arasında seçim yapmak çoğu zaman kafa karıştırıcı olabiliyor. Yaptığımız karşılaştırmanın açık ara kazananı: <strong>Çim Halı</strong>.</p>
+      <h2>İhtiyacınıza En Uygun Zemini Belirleyin</h2>
+      <p>Bahar aylarının gelmesiyle birlikte yeşil ve ferah bir açık alan yaratma isteği artıyor. Bu noktada akla gelen ilk soru genellikle doğal çim mi yoksa <strong>suni çim halı</strong> mı olacağıdır. Her iki seçeneğin de kullanım senaryosuna göre çeşitli avantajları bulunuyor.</p>
 
-      <h3>Maliyet ve Bakım Kolaylığı</h3>
-      <p>Doğal çimin sürekli sulanması, biçilmesi ve gübrelenmesi gerekir. Özellikle İzmir'in sıcak yaz aylarında su faturaları doğal çim için oldukça kabarık gelir. Oysa <em>suni çim halı</em>, sulama ve bakım gerektirmeden 4 mevsim yemyeşil kalır, zamanla kendini amorti eder.</p>
+      <h3>Maliyet ve Bakım Süreçleri</h3>
+      <p>Doğal çim, toprağın doğallığını hissetmek isteyenler için harika bir his sunsa da düzenli sulama, biçme ve gübreleme gibi sürekli bir mesai gerektirir. Öte yandan gelişen teknolojiyle üretilen <em>suni çim halılar</em>, bu rutin bakımları tamamen ortadan kaldırarak uzun vadede hem su sarfiyatını bitiriyor hem de ciddi bir zaman ve maliyet tasarrufu sağlıyor.</p>
 
-      <h3>Böceklenme ve Dayanıklılık</h3>
-      <p>Doğal çimlerde böceklenme ve haşere sorunu varken, çim halıda polipropilen/polietilen malzeme sayesinde steril bir ortam sağlanır. Temizliği sadece su tutularak yapılır, leke tutmaz ve çocuklarınız veya evcil hayvanlarınız için çok daha güvenlidir. Egefleks olarak bahçelerinizi Nurteks çim halı modelleriyle tanıştırıyoruz.</p>
+      <h3>Uzun Ömürlülük ve Dayanıklılık</h3>
+      <p>Doğal çim özellikle gölge alanlarda veya çok sıcak iklimlerde yıpranmaya açıktır ve sararabilir. Çim halı sistemleri ise UV korumalı yapıları sayesinde rengini yıllarca korur, leke tutmaz ve yağmurlu havalardan sonra anında kullanılabilir durumda kalır. Bakım zahmeti olmadan 4 mevsim kusursuz yeşil bir görünüme sahip olmak isteyen okuyucularımız için Nurteks çim halı serileri, oldukça mantıklı ve konforlu bir tercih olacaktır.</p>
     `
   },
   {
@@ -608,16 +608,16 @@ export const blogPosts = [
     category: "Duvar Kağıdı",
     date: "11 Nisan 2026",
     image: "https://images.unsplash.com/photo-1760172287483-02d382f63a6f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjB3YWxscGFwZXJ8ZW58MHx8fHwxNzc0OTQ3MjIzfDA&ixlib=rb-4.1.0&q=85",
-    summary: "Mekan yenilerken klasik boya yöntemleri mi, yoksa duvar kağıdı mı? Kesin kazananı belirliyoruz: Duvar Kağıdı ile sonsuz tasarım özgürlüğü.",
+    summary: "Yaşam alanlarınızı yenilerken hangi duvar dekorasyonunun size daha uygun olduğunu mekan ölçüsü, maliyet ve estetik beklentiler üzerinden değerlendirdik.",
     content: `
-      <h2>Duvarlarınızı Yenilerken Hangi Yöntem Daha Avantajlı?</h2>
-      <p>Ev veya ofis dekorasyonunda en çok ikilemde kalınan konu, duvarlarda kullanılacak malzemedir. Klasik boya mı, yoksa <strong>duvar kağıdı mı?</strong> Hem estetik hem de pratiklik açısından karşılaştırmamızın kazananı hiç şüphesiz <strong>Duvar Kağıdı</strong> oldu.</p>
+      <h2>Duvarlarınızı Yenilerken Hangi Yöntem Tercih Edilmeli?</h2>
+      <p>Ev veya ofis dekorasyonunda mekanın atmosferini belirleyen en büyük etken duvarlardır. Bu değişimi yaparken karşımıza iki güçlü seçenek çıkıyor: Geleneksel boya uygulamaları ve modern <strong>duvar kağıdı</strong> sistemleri. Mekanınızın yapısına göre doğru kararı vermek, uzun vadeli memnuniyet için çok önemli.</p>
 
-      <h3>Sonsuz Desen ve Doku Özgürlüğü</h3>
-      <p>Boya badana ile ancak düz ve tekdüze renkler elde edebilirsiniz. Duvar kağıdı ise 3 boyutlu algı, damask veya geometrik desenler, taş ve ahşap görünümleri gibi sayısız estetik seçenek sunar. Mekanın ruhunu, sıradan bir odadan lüks bir otel odasına çevirebilecek güce sahiptir.</p>
+      <h3>Renkler ve Tasarım Özgürlüğü</h3>
+      <p>Boya uygulamaları, duvarlara taze ve temiz bir his vermek için idealdir ve sık renk değiştirmeyi sevenler için oldukça pratiktir. Ancak mekana karakter katmak, derinlik hissi oluşturmak veya bir odak noktası yaratmak (örneğin taş, ahşap dokusu ya da geometrik desenler) istediğinizde, tasarım zenginliği açısından boya maalesef sınırlı kalıyor. Duvar kağıdı ise tam da bu noktada devreye girerek mekana anında sanatsal bir kimlik katıyor.</p>
 
-      <h3>Uygulama Kolaylığı ve Ömür</h3>
-      <p>Boya yaparken oluşan damlama, eşyaların üstünü örtme ve yoğun boya kokusu duvar kağıdı uygulamalarında yoktur. Birkaç saat içinde temiz bir şekilde uygulanır ve mekanı anında değiştirebilirsiniz. Üstelik kaliteli vinil duvar kağıtları silinebilir yapıdadır ve boyaya göre yıllarca solmadan, çizilmeden dayanır. Geniş <em>duvar kağıdı modellerimizle</em> hayatınıza renk katmak için Egefleks mağazasına davetlisiniz.</p>
+      <h3>Uygulama Hızı ve Dayanıklılık</h3>
+      <p>Boya sürecinde odanın boşaltılması, kuruma süresi ve boya kokusunun gitmesi gibi aşamalar varken; duvar kağıdı genellikle birkaç saat içinde, kokusuz ve temiz bir şekilde uygulanır. Kaliteli vinil duvar kağıtları aynı zamanda nemli bezle hafifçe silinebildiği için lekelere karşı da ekstra bir avantaj sağlar. Geleneksel temizlikten sapmadan, yıllarca solmayacak zengin bir görünüm arayanlar için duvar kağıdı modelleri mekanı dönüştürmek adına bir adım öne çıkıyor.</p>
     `
   }
 ];
